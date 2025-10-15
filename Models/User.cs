@@ -1,4 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations;
 
 public class User
 {
@@ -10,4 +10,3 @@ public class User
     [Required]
     public string PasswordHash { get; set; }
     public string Role { get; set; }
-}
